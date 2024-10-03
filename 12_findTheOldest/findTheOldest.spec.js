@@ -1,4 +1,4 @@
-const findTheOldest = require('./findTheOldest')
+import findTheOldest from './findTheOldest';
 
 describe('findTheOldest', () => {
   test('finds the person with the greatest age!', () => {
